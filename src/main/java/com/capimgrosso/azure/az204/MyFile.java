@@ -1,12 +1,12 @@
 package com.capimgrosso.azure.az204;
 
-public class MyBlob {
+public class MyFile {
     private String name;
     private String url;
 
-    public MyBlob(){}
+    public MyFile(){}
 
-    public MyBlob(String name, String url) {
+    public MyFile(String name, String url) {
         this.name = name;
         this.url = url;
     }
